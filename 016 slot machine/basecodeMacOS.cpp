@@ -9,7 +9,7 @@ void drawTexts() {
     gotoxy(40 - title.length()/2 + 1, 3);
     cout << title;
 
-    string instructions = "Instructions: Press ENTER to stop and spin, Q to quit. 5 cents per spin.";
+    string instructions = "Instructions: Press ENTER to stop and spin, Q to quit. 25 cents per spin.";
     gotoxy(40 - instructions.length()/2, 5);
     cout << instructions;
     string jackpots = "Jackpots: 2 of a kind = $0.50, 3 of a kind = $3, ALL 7's = $10";
